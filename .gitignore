@@ -9,6 +9,9 @@ DerivedData
 ## AppCode
 .idea/
 
+## XEP
+.PrjEnv.cfg
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
