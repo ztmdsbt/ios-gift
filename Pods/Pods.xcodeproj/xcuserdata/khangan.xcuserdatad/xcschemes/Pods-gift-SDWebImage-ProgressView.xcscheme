@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F0AB3E78FE9578418FD3F70B"
+               BlueprintIdentifier = "23B821AE084035D8954A3F5A"
                BuildableName = "SDWebImage_ProgressView.framework"
                BlueprintName = "Pods-gift-SDWebImage-ProgressView"
                ReferencedContainer = "container:Pods.xcodeproj">

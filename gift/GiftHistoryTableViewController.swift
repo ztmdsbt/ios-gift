@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GiftHistoryTableViewController: UITableViewController {
+@objc(GiftHistoryTableViewController) class GiftHistoryTableViewController: UITableViewController {
         
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +18,10 @@ class GiftHistoryTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init(nibName: "GiftHistoryTableViewController", bundle: NSBundle.mainBundle())
     }
 
     override func didReceiveMemoryWarning() {

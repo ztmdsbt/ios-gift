@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoverInfoViewController: UIViewController {
+@objc(LoverInfoViewController) class LoverInfoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +21,9 @@ class LoverInfoViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    required init(coder aDecoder: NSCoder) {
+        super.init(nibName: "MainViewController", bundle: NSBundle.mainBundle())
+    }
 
     /*
     // MARK: - Navigation

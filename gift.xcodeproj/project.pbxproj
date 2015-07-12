@@ -38,10 +38,11 @@
 		4FDFA3181B5354AB00C2A4F9 /* MemorialDaysSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFA3141B5354AB00C2A4F9 /* MemorialDaysSettingViewController.xib */; };
 		4FE9371B1B513BEC00F2AA6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9371A1B513BEC00F2AA6B /* AppDelegate.swift */; };
 		4FE9371D1B513BEC00F2AA6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9371C1B513BEC00F2AA6B /* ViewController.swift */; };
-		4FE937201B513BEC00F2AA6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE9371E1B513BEC00F2AA6B /* Main.storyboard */; };
 		4FE937221B513BEC00F2AA6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE937211B513BEC00F2AA6B /* Images.xcassets */; };
 		4FE937251B513BEC00F2AA6B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FE937231B513BEC00F2AA6B /* LaunchScreen.xib */; };
 		4FE937311B513BEC00F2AA6B /* giftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE937301B513BEC00F2AA6B /* giftTests.swift */; };
+		4FE93D501B54072800EEC1A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE93D4E1B54072800EEC1A0 /* Main.storyboard */; };
+		4FE93D511B54072800EEC1A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE93D4E1B54072800EEC1A0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,12 +75,12 @@
 		4FE937191B513BEC00F2AA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FE9371A1B513BEC00F2AA6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FE9371C1B513BEC00F2AA6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4FE9371F1B513BEC00F2AA6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FE937211B513BEC00F2AA6B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4FE937241B513BEC00F2AA6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4FE9372A1B513BEC00F2AA6B /* giftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = giftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE9372F1B513BEC00F2AA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FE937301B513BEC00F2AA6B /* giftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giftTests.swift; sourceTree = "<group>"; };
+		4FE93D4F1B54072800EEC1A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B7442E88E81E6E6D6FA9D03 /* Pods-gift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gift.release.xcconfig"; path = "Pods/Target Support Files/Pods-gift/Pods-gift.release.xcconfig"; sourceTree = "<group>"; };
 		EAAC1A1C93FF5EB68BF4CF1F /* Pods-gift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gift/Pods-gift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,9 +144,9 @@
 		4FE937171B513BEC00F2AA6B /* gift */ = {
 			isa = PBXGroup;
 			children = (
+				4FE93D4E1B54072800EEC1A0 /* Main.storyboard */,
 				4FE9371A1B513BEC00F2AA6B /* AppDelegate.swift */,
 				4FE9371C1B513BEC00F2AA6B /* ViewController.swift */,
-				4FE9371E1B513BEC00F2AA6B /* Main.storyboard */,
 				4FE937211B513BEC00F2AA6B /* Images.xcassets */,
 				4FE937231B513BEC00F2AA6B /* LaunchScreen.xib */,
 				4FE937181B513BEC00F2AA6B /* Supporting Files */,
@@ -276,9 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FDFA2F31B53534800C2A4F9 /* LoginViewController.xib in Resources */,
+				4FE93D501B54072800EEC1A0 /* Main.storyboard in Resources */,
 				4FDFA3051B5353F000C2A4F9 /* GiftHistoryTableViewController.xib in Resources */,
 				4FDFA2FF1B5353AA00C2A4F9 /* LoverInfoViewController.xib in Resources */,
-				4FE937201B513BEC00F2AA6B /* Main.storyboard in Resources */,
 				4FDFA2F91B53535900C2A4F9 /* MainViewController.xib in Resources */,
 				4FDFA30B1B53541400C2A4F9 /* GiftDetailsViewController.xib in Resources */,
 				4FDFA3111B53546500C2A4F9 /* FriendsGroupViewController.xib in Resources */,
@@ -295,6 +296,7 @@
 				4FDFA3121B53546500C2A4F9 /* FriendsGroupViewController.xib in Resources */,
 				4FDFA2F41B53534800C2A4F9 /* LoginViewController.xib in Resources */,
 				4FDFA30C1B53541400C2A4F9 /* GiftDetailsViewController.xib in Resources */,
+				4FE93D511B54072800EEC1A0 /* Main.storyboard in Resources */,
 				4FDFA3001B5353AA00C2A4F9 /* LoverInfoViewController.xib in Resources */,
 				4FDFA3181B5354AB00C2A4F9 /* MemorialDaysSettingViewController.xib in Resources */,
 				4FDFA3061B5353F000C2A4F9 /* GiftHistoryTableViewController.xib in Resources */,
@@ -395,20 +397,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4FE9371E1B513BEC00F2AA6B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4FE9371F1B513BEC00F2AA6B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4FE937231B513BEC00F2AA6B /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4FE937241B513BEC00F2AA6B /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		4FE93D4E1B54072800EEC1A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FE93D4F1B54072800EEC1A0 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -8,19 +8,23 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+@objc(LoginViewController) class LoginViewController: UIViewController {
+    @IBOutlet var viewXib: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    required init(coder aDecoder: NSCoder) {
+        super.init(nibName: "LoginViewController", bundle: NSBundle.mainBundle())
+    }
 
     /*
     // MARK: - Navigation

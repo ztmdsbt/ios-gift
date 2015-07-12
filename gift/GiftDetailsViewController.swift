@@ -2,18 +2,22 @@
 //  GiftDetailsViewController.swift
 //  gift
 //
-//  Created by Kaihang An on 7/13/15.
+//  Created by Kaihang An on 7/125.
 //  Copyright (c) 2015 Thoughtworks. inc. All rights reserved.
 //
 
 import UIKit
 
-class GiftDetailsViewController: UIViewController {
+@objc(GiftDetailsViewController) class GiftDetailsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init(nibName: "GiftDetailsViewController", bundle: NSBundle.mainBundle())
     }
 
     override func didReceiveMemoryWarning() {

@@ -8,12 +8,16 @@
 
 import UIKit
 
-class FriendsGroupViewController: UIViewController {
+@objc(FriendsGroupViewController) class FriendsGroupViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init(nibName: "FriendsGroupViewController", bundle: NSBundle.mainBundle())
     }
 
     override func didReceiveMemoryWarning() {

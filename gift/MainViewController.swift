@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+@objc(MainViewController) class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +19,10 @@ class MainViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init(nibName: "MainViewController", bundle: NSBundle.mainBundle())
     }
     
 

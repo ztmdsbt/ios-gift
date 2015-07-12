@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-gift-JTCalendar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-gift-SDWebImage-ProgressView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-gift-WHRoundedImageView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-gift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +42,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3A6D121B3187F7AB9BC9CFCB</key>
+		<key>0567D378D5B245E7A9C713D5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3D592A6B42DDCAC34F10CC5A</key>
+		<key>10B67FE6C51125F9071963D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7D7944A52FD754242CB9F875</key>
+		<key>214611A22F6576F443F21B1D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A89924CB3D90A4CE9CE49B99</key>
+		<key>23B821AE084035D8954A3F5A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F0AB3E78FE9578418FD3F70B</key>
+		<key>38B16F27A8C612D0399B0940</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>48D6945873C4CE5DDAAB7E6E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5F5B99B96C329BB2C676ECA1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

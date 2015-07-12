@@ -1,0 +1,6 @@
+framework module WHRoundedImageView {
+  umbrella header "Pods-gift-WHRoundedImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

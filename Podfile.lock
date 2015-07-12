@@ -20,22 +20,28 @@ PODS:
   - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - JTCalendar (1.2.3)
   - SDWebImage (3.7.2):
     - SDWebImage/Core (= 3.7.2)
   - SDWebImage-ProgressView (0.4.0):
     - SDWebImage (~> 3.7.0)
   - SDWebImage/Core (3.7.2)
   - TPKeyboardAvoiding (1.2.8)
+  - WHRoundedImageView (1.1.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5)
+  - JTCalendar (~> 1.1)
   - SDWebImage-ProgressView (~> 0.4)
   - TPKeyboardAvoiding (~> 1.2.0)
+  - WHRoundedImageView
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  JTCalendar: 246ea3e338fb97624846ec77cdcde448242c4d5c
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
   SDWebImage-ProgressView: cdc29091ec0d53fd6dab3df65039a4f308e0a5ae
   TPKeyboardAvoiding: f1ef0028fe9ba98ef2871cf55b4bbc39cae0267b
+  WHRoundedImageView: 7bb1827879680325c1df9b63bf351b22213e36ab
 
 COCOAPODS: 0.37.2

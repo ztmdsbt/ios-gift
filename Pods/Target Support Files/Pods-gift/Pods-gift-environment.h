@@ -48,6 +48,12 @@
 #define COCOAPODS_VERSION_MINOR_AFNetworking_UIKit 5
 #define COCOAPODS_VERSION_PATCH_AFNetworking_UIKit 4
 
+// JTCalendar
+#define COCOAPODS_POD_AVAILABLE_JTCalendar
+#define COCOAPODS_VERSION_MAJOR_JTCalendar 1
+#define COCOAPODS_VERSION_MINOR_JTCalendar 2
+#define COCOAPODS_VERSION_PATCH_JTCalendar 3
+
 // SDWebImage
 #define COCOAPODS_POD_AVAILABLE_SDWebImage
 #define COCOAPODS_VERSION_MAJOR_SDWebImage 3
@@ -71,4 +77,10 @@
 #define COCOAPODS_VERSION_MAJOR_TPKeyboardAvoiding 1
 #define COCOAPODS_VERSION_MINOR_TPKeyboardAvoiding 2
 #define COCOAPODS_VERSION_PATCH_TPKeyboardAvoiding 8
+
+// WHRoundedImageView
+#define COCOAPODS_POD_AVAILABLE_WHRoundedImageView
+#define COCOAPODS_VERSION_MAJOR_WHRoundedImageView 1
+#define COCOAPODS_VERSION_MINOR_WHRoundedImageView 1
+#define COCOAPODS_VERSION_PATCH_WHRoundedImageView 1
 

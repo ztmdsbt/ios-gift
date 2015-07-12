@@ -8,12 +8,16 @@
 
 import UIKit
 
-class MemorialDaysSettingViewController: UIViewController {
+@objc(MemorialDaysSettingViewController) class MemorialDaysSettingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init(nibName: "MemorialDaysSettingViewController", bundle: NSBundle.mainBundle())
     }
 
     override func didReceiveMemoryWarning() {
