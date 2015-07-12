@@ -8,6 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		0EACCE4C82DD26BF857EA47A /* Pods_gift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F12E28DAFE102F6E8A069E7 /* Pods_gift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4FDFA2F11B53534800C2A4F9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFA2EF1B53534800C2A4F9 /* LoginViewController.swift */; };
+		4FDFA2F21B53534800C2A4F9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFA2EF1B53534800C2A4F9 /* LoginViewController.swift */; };
+		4FDFA2F31B53534800C2A4F9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFA2F01B53534800C2A4F9 /* LoginViewController.xib */; };
+		4FDFA2F41B53534800C2A4F9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFA2F01B53534800C2A4F9 /* LoginViewController.xib */; };
+		4FDFA2F71B53535900C2A4F9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFA2F51B53535900C2A4F9 /* MainViewController.swift */; };
+		4FDFA2F81B53535900C2A4F9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFA2F51B53535900C2A4F9 /* MainViewController.swift */; };
+		4FDFA2F91B53535900C2A4F9 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFA2F61B53535900C2A4F9 /* MainViewController.xib */; };
+		4FDFA2FA1B53535900C2A4F9 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFA2F61B53535900C2A4F9 /* MainViewController.xib */; };
+		4FDFA2FD1B5353AA00C2A4F9 /* LoverInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFA2FB1B5353AA00C2A4F9 /* LoverInfoViewController.swift */; };
+		4FDFA2FE1B5353AA00C2A4F9 /* LoverInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFA2FB1B5353AA00C2A4F9 /* LoverInfoViewController.swift */; };
+		4FDFA2FF1B5353AA00C2A4F9 /* LoverInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFA2FC1B5353AA00C2A4F9 /* LoverInfoViewController.xib */; };
+		4FDFA3001B5353AA00C2A4F9 /* LoverInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFA2FC1B5353AA00C2A4F9 /* LoverInfoViewController.xib */; };
+		4FDFA3031B5353F000C2A4F9 /* GiftHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFA3011B5353F000C2A4F9 /* GiftHistoryTableViewController.swift */; };
+		4FDFA3041B5353F000C2A4F9 /* GiftHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFA3011B5353F000C2A4F9 /* GiftHistoryTableViewController.swift */; };
+		4FDFA3051B5353F000C2A4F9 /* GiftHistoryTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFA3021B5353F000C2A4F9 /* GiftHistoryTableViewController.xib */; };
+		4FDFA3061B5353F000C2A4F9 /* GiftHistoryTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFA3021B5353F000C2A4F9 /* GiftHistoryTableViewController.xib */; };
+		4FDFA3091B53541400C2A4F9 /* GiftDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFA3071B53541400C2A4F9 /* GiftDetailsViewController.swift */; };
+		4FDFA30A1B53541400C2A4F9 /* GiftDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFA3071B53541400C2A4F9 /* GiftDetailsViewController.swift */; };
+		4FDFA30B1B53541400C2A4F9 /* GiftDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFA3081B53541400C2A4F9 /* GiftDetailsViewController.xib */; };
+		4FDFA30C1B53541400C2A4F9 /* GiftDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFA3081B53541400C2A4F9 /* GiftDetailsViewController.xib */; };
+		4FDFA30F1B53546500C2A4F9 /* FriendsGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFA30D1B53546500C2A4F9 /* FriendsGroupViewController.swift */; };
+		4FDFA3101B53546500C2A4F9 /* FriendsGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFA30D1B53546500C2A4F9 /* FriendsGroupViewController.swift */; };
+		4FDFA3111B53546500C2A4F9 /* FriendsGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFA30E1B53546500C2A4F9 /* FriendsGroupViewController.xib */; };
+		4FDFA3121B53546500C2A4F9 /* FriendsGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFA30E1B53546500C2A4F9 /* FriendsGroupViewController.xib */; };
+		4FDFA3151B5354AB00C2A4F9 /* MemorialDaysSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFA3131B5354AB00C2A4F9 /* MemorialDaysSettingViewController.swift */; };
+		4FDFA3161B5354AB00C2A4F9 /* MemorialDaysSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFA3131B5354AB00C2A4F9 /* MemorialDaysSettingViewController.swift */; };
+		4FDFA3171B5354AB00C2A4F9 /* MemorialDaysSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFA3141B5354AB00C2A4F9 /* MemorialDaysSettingViewController.xib */; };
+		4FDFA3181B5354AB00C2A4F9 /* MemorialDaysSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFA3141B5354AB00C2A4F9 /* MemorialDaysSettingViewController.xib */; };
 		4FE9371B1B513BEC00F2AA6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9371A1B513BEC00F2AA6B /* AppDelegate.swift */; };
 		4FE9371D1B513BEC00F2AA6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9371C1B513BEC00F2AA6B /* ViewController.swift */; };
 		4FE937201B513BEC00F2AA6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE9371E1B513BEC00F2AA6B /* Main.storyboard */; };
@@ -28,6 +56,20 @@
 
 /* Begin PBXFileReference section */
 		0F12E28DAFE102F6E8A069E7 /* Pods_gift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FDFA2EF1B53534800C2A4F9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4FDFA2F01B53534800C2A4F9 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		4FDFA2F51B53535900C2A4F9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4FDFA2F61B53535900C2A4F9 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4FDFA2FB1B5353AA00C2A4F9 /* LoverInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoverInfoViewController.swift; sourceTree = "<group>"; };
+		4FDFA2FC1B5353AA00C2A4F9 /* LoverInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoverInfoViewController.xib; sourceTree = "<group>"; };
+		4FDFA3011B5353F000C2A4F9 /* GiftHistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftHistoryTableViewController.swift; sourceTree = "<group>"; };
+		4FDFA3021B5353F000C2A4F9 /* GiftHistoryTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GiftHistoryTableViewController.xib; sourceTree = "<group>"; };
+		4FDFA3071B53541400C2A4F9 /* GiftDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftDetailsViewController.swift; sourceTree = "<group>"; };
+		4FDFA3081B53541400C2A4F9 /* GiftDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GiftDetailsViewController.xib; sourceTree = "<group>"; };
+		4FDFA30D1B53546500C2A4F9 /* FriendsGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsGroupViewController.swift; sourceTree = "<group>"; };
+		4FDFA30E1B53546500C2A4F9 /* FriendsGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendsGroupViewController.xib; sourceTree = "<group>"; };
+		4FDFA3131B5354AB00C2A4F9 /* MemorialDaysSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemorialDaysSettingViewController.swift; sourceTree = "<group>"; };
+		4FDFA3141B5354AB00C2A4F9 /* MemorialDaysSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemorialDaysSettingViewController.xib; sourceTree = "<group>"; };
 		4FE937151B513BEC00F2AA6B /* gift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE937191B513BEC00F2AA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FE9371A1B513BEC00F2AA6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +149,20 @@
 				4FE937211B513BEC00F2AA6B /* Images.xcassets */,
 				4FE937231B513BEC00F2AA6B /* LaunchScreen.xib */,
 				4FE937181B513BEC00F2AA6B /* Supporting Files */,
+				4FDFA2EF1B53534800C2A4F9 /* LoginViewController.swift */,
+				4FDFA2F01B53534800C2A4F9 /* LoginViewController.xib */,
+				4FDFA2F51B53535900C2A4F9 /* MainViewController.swift */,
+				4FDFA2F61B53535900C2A4F9 /* MainViewController.xib */,
+				4FDFA2FB1B5353AA00C2A4F9 /* LoverInfoViewController.swift */,
+				4FDFA2FC1B5353AA00C2A4F9 /* LoverInfoViewController.xib */,
+				4FDFA3011B5353F000C2A4F9 /* GiftHistoryTableViewController.swift */,
+				4FDFA3021B5353F000C2A4F9 /* GiftHistoryTableViewController.xib */,
+				4FDFA3071B53541400C2A4F9 /* GiftDetailsViewController.swift */,
+				4FDFA3081B53541400C2A4F9 /* GiftDetailsViewController.xib */,
+				4FDFA30D1B53546500C2A4F9 /* FriendsGroupViewController.swift */,
+				4FDFA30E1B53546500C2A4F9 /* FriendsGroupViewController.xib */,
+				4FDFA3131B5354AB00C2A4F9 /* MemorialDaysSettingViewController.swift */,
+				4FDFA3141B5354AB00C2A4F9 /* MemorialDaysSettingViewController.xib */,
 			);
 			path = gift;
 			sourceTree = "<group>";
@@ -219,8 +275,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FDFA2F31B53534800C2A4F9 /* LoginViewController.xib in Resources */,
+				4FDFA3051B5353F000C2A4F9 /* GiftHistoryTableViewController.xib in Resources */,
+				4FDFA2FF1B5353AA00C2A4F9 /* LoverInfoViewController.xib in Resources */,
 				4FE937201B513BEC00F2AA6B /* Main.storyboard in Resources */,
+				4FDFA2F91B53535900C2A4F9 /* MainViewController.xib in Resources */,
+				4FDFA30B1B53541400C2A4F9 /* GiftDetailsViewController.xib in Resources */,
+				4FDFA3111B53546500C2A4F9 /* FriendsGroupViewController.xib in Resources */,
 				4FE937251B513BEC00F2AA6B /* LaunchScreen.xib in Resources */,
+				4FDFA3171B5354AB00C2A4F9 /* MemorialDaysSettingViewController.xib in Resources */,
 				4FE937221B513BEC00F2AA6B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +292,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FDFA3121B53546500C2A4F9 /* FriendsGroupViewController.xib in Resources */,
+				4FDFA2F41B53534800C2A4F9 /* LoginViewController.xib in Resources */,
+				4FDFA30C1B53541400C2A4F9 /* GiftDetailsViewController.xib in Resources */,
+				4FDFA3001B5353AA00C2A4F9 /* LoverInfoViewController.xib in Resources */,
+				4FDFA3181B5354AB00C2A4F9 /* MemorialDaysSettingViewController.xib in Resources */,
+				4FDFA3061B5353F000C2A4F9 /* GiftHistoryTableViewController.xib in Resources */,
+				4FDFA2FA1B53535900C2A4F9 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,8 +357,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FDFA3151B5354AB00C2A4F9 /* MemorialDaysSettingViewController.swift in Sources */,
+				4FDFA2F11B53534800C2A4F9 /* LoginViewController.swift in Sources */,
+				4FDFA3091B53541400C2A4F9 /* GiftDetailsViewController.swift in Sources */,
 				4FE9371D1B513BEC00F2AA6B /* ViewController.swift in Sources */,
+				4FDFA3031B5353F000C2A4F9 /* GiftHistoryTableViewController.swift in Sources */,
+				4FDFA30F1B53546500C2A4F9 /* FriendsGroupViewController.swift in Sources */,
+				4FDFA2FD1B5353AA00C2A4F9 /* LoverInfoViewController.swift in Sources */,
 				4FE9371B1B513BEC00F2AA6B /* AppDelegate.swift in Sources */,
+				4FDFA2F71B53535900C2A4F9 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +373,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FDFA2F81B53535900C2A4F9 /* MainViewController.swift in Sources */,
+				4FDFA2F21B53534800C2A4F9 /* LoginViewController.swift in Sources */,
+				4FDFA3041B5353F000C2A4F9 /* GiftHistoryTableViewController.swift in Sources */,
+				4FDFA30A1B53541400C2A4F9 /* GiftDetailsViewController.swift in Sources */,
+				4FDFA3101B53546500C2A4F9 /* FriendsGroupViewController.swift in Sources */,
 				4FE937311B513BEC00F2AA6B /* giftTests.swift in Sources */,
+				4FDFA3161B5354AB00C2A4F9 /* MemorialDaysSettingViewController.swift in Sources */,
+				4FDFA2FE1B5353AA00C2A4F9 /* LoverInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
