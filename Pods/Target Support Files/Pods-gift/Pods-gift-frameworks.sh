@@ -49,7 +49,6 @@ code_sign() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'AFNetworking.framework'
-  install_framework 'JTCalendar.framework'
   install_framework 'SDWebImage.framework'
   install_framework 'SDWebImage_ProgressView.framework'
   install_framework 'TPKeyboardAvoiding.framework'
@@ -57,7 +56,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'AFNetworking.framework'
-  install_framework 'JTCalendar.framework'
   install_framework 'SDWebImage.framework'
   install_framework 'SDWebImage_ProgressView.framework'
   install_framework 'TPKeyboardAvoiding.framework'

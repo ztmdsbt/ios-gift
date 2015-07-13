@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38B16F27A8C612D0399B0940"
+               BlueprintIdentifier = "5F9A148A090AF380E564996A"
                BuildableName = "WHRoundedImageView.framework"
                BlueprintName = "Pods-gift-WHRoundedImageView"
                ReferencedContainer = "container:Pods.xcodeproj">

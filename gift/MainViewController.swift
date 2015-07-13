@@ -8,8 +8,10 @@
 
 import UIKit
 
-@objc(MainViewController) class MainViewController: UIViewController {
+class MainViewController: UIViewController {
 
+    @IBOutlet weak var calendarview: CVCalendarView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,10 +23,10 @@ import UIKit
         // Dispose of any resources that can be recreated.
     }
     
-    required init(coder aDecoder: NSCoder) {
-        super.init(nibName: "MainViewController", bundle: NSBundle.mainBundle())
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        calendarview.commitCalendarViewUpdate()
     }
-    
 
     /*
     // MARK: - Navigation

@@ -9,9 +9,13 @@
 import UIKit
 
 @objc(LoginViewController) class LoginViewController: UIViewController {
-    @IBOutlet var viewXib: UIView!
 
-    override func viewDidLoad() {
+    @IBOutlet weak var btlLogin: UIButton!
+    @IBOutlet weak var txtUsername: UITextField!
+    @IBOutlet weak var txtPwd: UITextField!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -21,12 +25,8 @@ import UIKit
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    required init(coder aDecoder: NSCoder) {
-        super.init(nibName: "LoginViewController", bundle: NSBundle.mainBundle())
-    }
-
-    /*
+   
+       /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -35,5 +35,10 @@ import UIKit
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    @IBAction func btnLoginClick() {
+        let secondViewController:MainViewController = MainViewController(nibName: "MainViewController", bundle: NSBundle.mainBundle())
+        
+        self.presentViewController(secondViewController, animated: true, completion: nil)
+    }
 }

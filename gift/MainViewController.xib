@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="gift" customModuleProvider="target">
             <connections>
+                <outlet property="calendarview" destination="vfO-Nh-pxm" id="tl2-YP-PVF"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,8 +15,12 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="0Cr-jt-o0P" customClass="WHRoundedImageView" customModule="WHRoundedImageView">
-                    <rect key="frame" x="33" y="58" width="48" height="48"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="0Cr-jt-o0P" customClass="WHRoundedImageView" customModule="WHRoundedImageView">
+                    <rect key="frame" x="20" y="30" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="dYQ-5z-Bmw"/>
+                        <constraint firstAttribute="height" constant="48" id="gyq-vf-RMk"/>
+                    </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="radiusRatio">
                             <real key="value" value="0.5"/>
@@ -28,16 +33,38 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="很开心收到 xx 的礼物^_^" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOy-p1-b3a">
-                    <rect key="frame" x="89" y="78" width="235" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="很开心收到 xx 的礼物^_^" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOy-p1-b3a">
+                    <rect key="frame" x="75" y="50" width="160" height="17"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kf1-ur-nDe">
+                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                    <items>
+                        <barButtonItem title="Ta" width="58" id="Oxi-vl-AnW"/>
+                        <barButtonItem title="心意记录" width="109" id="XiJ-tt-Cs6"/>
+                        <barButtonItem title="礼物推荐" width="54" id="2db-Nr-SGa"/>
+                        <barButtonItem title="互助圈" width="140" id="Ebd-e3-95K"/>
+                    </items>
+                </toolbar>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vfO-Nh-pxm" customClass="CVCalendarView" customModule="gift" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="117" width="375" height="202"/>
+                    <color key="backgroundColor" red="1" green="0.62998601677571409" blue="0.085931788201192405" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="0Cr-jt-o0P" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="H0o-7T-oti"/>
+                <constraint firstItem="0Cr-jt-o0P" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="OXI-Q9-kPc"/>
+                <constraint firstItem="Kf1-ur-nDe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Qt9-9J-hgO"/>
+                <constraint firstItem="qOy-p1-b3a" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="oWR-Gh-ELl"/>
+                <constraint firstAttribute="trailing" secondItem="Kf1-ur-nDe" secondAttribute="trailing" id="qb9-aB-RcQ"/>
+                <constraint firstItem="qOy-p1-b3a" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="75" id="sJY-TP-oNv"/>
+                <constraint firstAttribute="bottom" secondItem="Kf1-ur-nDe" secondAttribute="bottom" id="zb5-4X-eZ2"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-            <point key="canvasLocation" x="955.5" y="706.5"/>
+            <point key="canvasLocation" x="979.5" y="765.5"/>
         </view>
     </objects>
     <resources>
