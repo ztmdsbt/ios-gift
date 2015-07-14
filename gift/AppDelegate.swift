@@ -16,13 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        self.window!.backgroundColor = UIColor.whiteColor()
-        self.window!.makeKeyAndVisible()
-        var mainCtrl = LoginViewController(nibName: "LoginViewController", bundle: NSBundle.mainBundle())
-        self.navigator = UINavigationController(rootViewController: mainCtrl)
-        self.window!.rootViewController = self.navigator
-        
+//        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+//        self.window!.backgroundColor = UIColor.whiteColor()
+//        self.window!.makeKeyAndVisible()
+//        var mainCtrl = LoginViewController(nibName: "LoginViewController", bundle: NSBundle.mainBundle())
+//        self.navigator = UINavigationController(rootViewController: mainCtrl)
+//        self.window!.rootViewController = self.navigator
         return true
     }
 

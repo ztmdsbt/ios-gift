@@ -61,6 +61,7 @@
 		4F4C57281B53455200A77164 /* CVShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C56F51B53455200A77164 /* CVShape.swift */; };
 		4F4C57291B53455200A77164 /* CVShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C56F51B53455200A77164 /* CVShape.swift */; };
 		4FB2DF6F1B5334FB00B81704 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FB2DF6E1B5334FB00B81704 /* LoginViewController.xib */; };
+		4FBBC01E1B54E6FA00E19C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FBBC01D1B54E6FA00E19C47 /* Main.storyboard */; };
 		4FDFA2F11B53534800C2A4F9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFA2EF1B53534800C2A4F9 /* LoginViewController.swift */; };
 		4FDFA2F21B53534800C2A4F9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFA2EF1B53534800C2A4F9 /* LoginViewController.swift */; };
 		4FDFA2F71B53535900C2A4F9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDFA2F51B53535900C2A4F9 /* MainViewController.swift */; };
@@ -133,6 +134,7 @@
 		4F4C56F41B53455200A77164 /* CVSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CVSet.swift; path = CVCalendar/CVSet.swift; sourceTree = "<group>"; };
 		4F4C56F51B53455200A77164 /* CVShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CVShape.swift; path = CVCalendar/CVShape.swift; sourceTree = "<group>"; };
 		4FB2DF6E1B5334FB00B81704 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = ../LoginViewController.xib; sourceTree = "<group>"; };
+		4FBBC01D1B54E6FA00E19C47 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		4FDFA2EF1B53534800C2A4F9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4FDFA2F51B53535900C2A4F9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4FDFA2F61B53535900C2A4F9 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 		4FE937171B513BEC00F2AA6B /* gift */ = {
 			isa = PBXGroup;
 			children = (
+				4FBBC01D1B54E6FA00E19C47 /* Main.storyboard */,
 				4FB2DF6E1B5334FB00B81704 /* LoginViewController.xib */,
 				4FE9371A1B513BEC00F2AA6B /* AppDelegate.swift */,
 				4FE9371C1B513BEC00F2AA6B /* ViewController.swift */,
@@ -392,6 +395,7 @@
 				4FDFA3171B5354AB00C2A4F9 /* MemorialDaysSettingViewController.xib in Resources */,
 				4FE937221B513BEC00F2AA6B /* Images.xcassets in Resources */,
 				4FB2DF6F1B5334FB00B81704 /* LoginViewController.xib in Resources */,
+				4FBBC01E1B54E6FA00E19C47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
