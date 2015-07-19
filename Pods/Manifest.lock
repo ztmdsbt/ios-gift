@@ -20,6 +20,9 @@ PODS:
   - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - AVOSCloud (3.1.2.6)
+  - AVOSCloudSNS (3.1.2.6):
+    - AVOSCloud
   - SDWebImage (3.7.2):
     - SDWebImage/Core (= 3.7.2)
   - SDWebImage-ProgressView (0.4.0):
@@ -30,12 +33,16 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5)
+  - AVOSCloud
+  - AVOSCloudSNS
   - SDWebImage-ProgressView (~> 0.4)
   - TPKeyboardAvoiding (~> 1.2.0)
   - WHRoundedImageView
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  AVOSCloud: a2fc903a1aee5a346f0fb839f92617378fffd2ed
+  AVOSCloudSNS: 2310d5a478bfb31e1a2af85a93f5dcbe82d83023
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
   SDWebImage-ProgressView: cdc29091ec0d53fd6dab3df65039a4f308e0a5ae
   TPKeyboardAvoiding: f1ef0028fe9ba98ef2871cf55b4bbc39cae0267b

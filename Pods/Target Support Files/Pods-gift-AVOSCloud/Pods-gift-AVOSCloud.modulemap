@@ -1,0 +1,6 @@
+framework module AVOSCloud {
+  umbrella header "Pods-gift-AVOSCloud-umbrella.h"
+
+  export *
+  module * { export * }
+}
